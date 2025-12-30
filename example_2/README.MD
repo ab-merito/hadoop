@@ -1,6 +1,6 @@
 # Mapreduce with MRJob
 
-1. Exemplary Parameters
+## 1. Exemplary Parameters
 
 1.1. [ssh_address] - example: "pac-ssh.azurehdinsight.net"
     Grupy zasobów  -> "name of the group" (ex bigdata) -> enter to the "HDInsight cluster" -> Properties -> Copy Secure Shell (SSH).
@@ -11,7 +11,7 @@
 
 1.4. [python_path] - example: "C:/Users/vdi-terminal/AppData/Local/Programs/Python/Python312"
 
-2. Run locally
+## 2. Run locally
 
 2.1. Install Python 3.12
 	https://www.python.org/downloads/release/python-3120/
@@ -43,7 +43,7 @@
 	$ python ratingcount.py data.txt > output.txt --cleanup=NONE
 ```
 
-3. Run on HADOOP cluster
+## 3. Run on HADOOP cluster
 
 3.1. From local shell copy example_2 to cluster:
 ```console
